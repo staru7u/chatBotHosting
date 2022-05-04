@@ -1,31 +1,3 @@
-{
-    "userRequest": {
-       "timezone": "Asia/Seoul",
-       "params": {},
-       "block": {
-         "id": "<블록 id>",
-         "name": "<블록 이름>"
-       },
-       "utterance": "<사용자 발화>",
-       "lang": "kr",
-       "user": {
-         "id": "<사용자 botUserKey>",
-         "type": "botUserKey",
-         "properties": {
-           "plusfriendUserKey": "<카카오톡 채널 사용자 id>"
-         }
-       }
-     },
-     "contexts": [],
-     "bot": {
-       "id": "<봇 id>",
-       "name": "<봇 이름>"
-     },
-     "action": {
-       "name": "<스킬 이름>",
-       "clientExtra": null,
-       "params": {},
-       "id": "<스킬 id>",
-       "detailParams": {}
-     }
-   }
+function response(room, msg, sender, isGroupChat, replier, imageDB) {
+    replier.reply("안녕");
+}
